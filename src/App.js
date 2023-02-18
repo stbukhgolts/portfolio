@@ -5,9 +5,9 @@ import happy from './happyo.jpg';
 import { ResponsiveNavbar } from 'react-hamburger-menus';
 import 'react-hamburger-menus/dist/style.css';
 import { ImageViewer } from 'react-image-viewer-dv';
-import img1 from './1.png';
-import img2 from './2.png';
-import img3 from './3.png';
+import img1 from './1.jpg';
+import img2 from './2.jpg';
+
 
 
 export const Default = () => (
@@ -56,9 +56,7 @@ export const YourComponent = () => {
         <ImageViewer>
           <img src={happy} alt="1" />
         </ImageViewer>{' '}
-        <ImageViewer>
-          <img src={img3} alt="1" />
-        </ImageViewer>
+
       </div>
     </div>
   );
