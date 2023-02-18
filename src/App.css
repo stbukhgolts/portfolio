@@ -9,3 +9,21 @@
 .main-pic {
   width: 100%;
 }
+
+.gallery img {
+  width: 20vw;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  /* width: 80vw; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 40px;
+}
