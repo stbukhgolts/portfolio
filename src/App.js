@@ -1,5 +1,6 @@
 import './App.css';
-import React from 'react'
+import React from 'react';
+import happy from './happyo.jpg'
 
 import { ResponsiveNavbar } from "react-hamburger-menus";
 import "react-hamburger-menus/dist/style.css";
@@ -15,6 +16,7 @@ export const Default = () => (
         backgroundColor: 'white',
       },
       navigationBarLarge: {
+        width: "100%",
         paddingTop: "1em",
         backgroundColor: 'white',
       },
@@ -25,7 +27,7 @@ export const Default = () => (
   >
       <ul>
         <li>ABOUT</li>
-        <li>PROJECTS</li>
+        <li>GALLERY</li>
         <li>CONTACT</li>
       </ul>
 
@@ -37,7 +39,7 @@ function App() {
     <div className="App">
 
       <Default />
-
+      <img src={happy} alt='happy old man' className='main-pic'/>
 
     </div>
   );
